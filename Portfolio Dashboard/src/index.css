@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: #1a1a1a;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.brand {
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #444;
+}
+
+.nav-link.active {
+  color: #111;
+  font-weight: 600;
+  border-bottom: 2px solid #111;
+}
+
+.page-content {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.dashboard-subnav {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.dashboard-content {
+  border-top: 1px solid #e2e2e2;
+  padding-top: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 360px;
+}
+
+form button {
+  margin-top: 0.5rem;
+  width: fit-content;
+}
